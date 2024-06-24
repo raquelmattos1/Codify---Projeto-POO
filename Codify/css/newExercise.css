@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: "Aldrich", sans-serif !important;
+
+}
+
+
+#label {
+    text-decoration: none;
+    font-size: 45px;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+#label:hover {
+    color: #78FCA0;
+}
+
+#perfil-icon {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#tsiw-icon, #alumni-icon, #perfil-icon, #leaderboard-icon, #logout-icon {
+    color:black;
+    font-size: 25px;
+}
+
+.box-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 2px #000;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.box-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Codify/img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.45;
+    border-radius: 20px;
+}
+
+.text-box  {
+    position: relative;
+    z-index: 1;
+    padding: 3%;
+}
+
+.box-2 {
+    position: relative;
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+    border: solid 2px #000;
+    background-color: #fff;
+
+}
+
+.title {
+    color: #78FCA0;
+    font-size: 45px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#logo-porto {
+    max-height: 50px;
+    max-width: 150px;
+}
+
+.subtitulo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#desafios-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#testemunhos-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#alunos-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#perfil-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#logout-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+.ERlevel, .language, .xpPoints, .textSheet, .imageSheet, .sentence, .alternative, .rightAlternative, .blank {
+    width: 100%;
+    margin-right: 3%;
+    margin-top: 3%;
+    border-radius: 8px;
+    height: 100%;
+}
+
+select {
+    border: solid 2px #000;
+}
+
+.textSheet, .sentence,.alternative, .rightAlternative, .blank {
+    width: 100%;
+    border: solid 2px #000;
+    height: 50px;
+}
+
+
+
+
+.sheetData {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.addSheet {
+    margin-top: 4%;
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+    
+}
+
+.exercise-card {
+    margin-bottom: 20px;
+}
+
+
+.exercises {
+    text-align: center;
+}
+
+.lookExercise {
+    color:#000;
+    font-size: 25px;
+}
+.lookExercise:hover {
+    color:#78FCA0;
+    font-size: 30px;
+}
+
+.removeExercise {
+    color:#000;
+    font-size: 25px;
+}
+.removeExercise:hover {
+    color:red;
+    font-size: 30px;
+}
+
+.option {
+    margin-left: 2%;
+}
+
+.levels {
+    width: 80%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.level {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #78FCA0;
+    border-radius: 10px;
+    padding: 1%;
+    border: solid 1px #000;
+    
+}
+
+.level:hover {
+    color:#000;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+

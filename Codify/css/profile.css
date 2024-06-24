@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: "Aldrich", sans-serif;
+
+}
+
+#label {
+    text-decoration: none;
+    font-size: 45px;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+#label:hover {
+    color: #78FCA0;
+}
+
+
+#tsiw-icon, #alumni-icon, #perfil-icon, #leaderboard-icon, #logout-icon {
+    color:black;
+    font-size: 25px;
+}
+
+#tsiw-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+.box-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 2px #000;
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center;
+}
+
+.box-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Codify/img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.45;
+    border-radius: 20px;
+}
+
+.text-box  {
+    position: relative;
+    z-index: 1;
+    padding: 3%;
+}
+
+.box-2 {
+    position: relative;
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+    border: solid 2px #000;
+    background-color: #fff;
+
+}
+
+.title {
+    color: #78FCA0;
+    font-size: 45px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#logo-porto {
+    max-height: 50px;
+    max-width: 150px;
+}
+
+.subtitulo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-1 {
+    max-width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    padding: 4%;
+}
+
+@media (max-width: 576px) {
+    #img-1 {
+        max-width: 370px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    #img-1 {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        text-align: center;
+    }
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3%;
+}
+
+.item {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+.item:hover {
+    color:#78FCA0;
+    font-size: 18px;
+}
+
+#sobre {
+    color: #78FCA0;
+    font-size: 18px;
+}
+
+#alumni-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#perfil-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#leaderboard-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#logout-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+.planoCurricular {
+    width: 100%;
+    text-align: center;
+}
+
+.tableTitle {
+    background-color: #d0ffde;
+}
+
+.opcional:hover {
+    background-color: #e6fafa;
+}
+
+.cards {
+    margin-top: 2%;
+}
+
+
+.card {
+    border: solid 1px #000;
+    text-align: justify;
+    margin: 1%;
+}
+
+.img-saidas {
+    padding: 5%;
+}
+
+.h5 {
+    color: #78FCA0;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+.main-text {
+    padding: 4%;
+}
+
+.acesso, .info {
+    padding:5%;
+}
+
+.social-media {
+    font-size: 30px;
+    padding: 5%;
+    color: #000;
+
+}
+
+.social-media:hover {
+    color:#78FCA0;
+    font-size: 35px;
+}
+
+.social-media-icons {
+    text-align: center;
+    margin-top: 4%;
+
+}
+
+.img-alumni {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 1px solid #78FCA0;
+    width: 100%;
+    height: 350px; 
+    object-fit: cover;
+}
+
+
+.card-alumni {
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 1px #000;
+}
+
+.nome-alumni {
+    color: #78FCA0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    margin-top: 6%;
+    min-height: 70px;
+}
+
+.cards {
+    margin: auto;
+    margin-top: 2%;
+}
+
+.mais-info {
+    font-size: 30px;
+    margin-bottom: 100%;
+    color: #000;
+}
+
+.mais-info:hover {
+    font-size: 35px;
+    color: #78FCA0;
+}
+
+.voltar-icon {
+    font-size: 25px;
+    color: #000;
+}
+
+.voltar-icon:hover {
+    font-size: 30px;
+    color: #78FCA0;
+}
+
+.nomeAluno {
+    color:#78FCA0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    margin-top: 15%;
+    margin-left: 1%;
+}
+
+.portrait {
+    width: 90%;
+    margin-left: 5%;
+    padding: 5%;  
+    height: 450px;
+    object-fit: cover; 
+
+}
+
+.subtitle-text {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 4%;
+    text-align: justify;
+}
+
+.subtitulo-1 {
+    text-align: justify;
+    padding: 7%;
+}
+
+.avatar {
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 300px; /* Largura desejada */
+    height: 300px; /* Altura desejada */
+    object-fit: cover;
+}
+
+
+.edit-perfil {
+    padding-top: 3%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+@media (min-width: 992px) {
+    .avatar {
+        width: 300px; /* Largura desejada */
+        height: 300px; /* Altura desejada */
+    }
+}
+
+.input-nome, .input-email, .input-senha {
+    border-radius: 10px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    height: 2.5rem;
+
+}
+
+.btn-salvar {
+    border-radius: 8px;
+    background-color: #c4fbfb;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.btn-salvar:hover {
+    font-size: 20px;
+}
+
+.mudar-avatar {
+    background-color: #c4fbfb;
+    border-radius: 8px;
+    padding: 0.7%;
+    margin-top: 10%;
+}
+
+.mudar-avatar:hover {
+    font-size: 20px;
+}
+
+.avatares {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.avatar-container {
+    flex: 0 0 calc(33.33% - 10px); /* 33.33% de largura com espaço entre eles */
+    max-width: calc(33.33% - 10px); /* Máxima largura para evitar quebrar para a próxima linha */
+    position: relative;
+}
+
+.img-avatar {
+    border-radius: 50%;
+    width: 100px; /* Largura desejada */
+    height: 100px; /* Altura desejada */
+    object-fit: cover;
+    margin: 2%;
+}
+
+.avatares {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.img-avatar {
+    border-radius: 50%;
+    width: 100px; /* Largura desejada */
+    height: 100px; /* Altura desejada */
+    object-fit: cover;
+    margin: 2%;
+}
+
+.avatar-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre os avatares */
+    margin-top: 6%;
+
+}
+
+.avatar-container {
+    flex: 0 0 calc(33.33% - 10px); /* 33.33% de largura com espaço entre eles */
+    max-width: calc(33.33% - 10px); /* Máxima largura para evitar quebrar para a próxima linha */
+    position: relative;
+}
+
+
+.avatar-container a {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.btn-salvarAvatar {
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+}
+
+.btn-cancelar {
+    background-color: #b8fcce;
+    border-radius: 8px;
+    padding: 0.7%;
+
+}
+
+.pontos{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.exercises-students {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.lookExercise {
+    color:#000;
+    font-size: 25px;
+}
+.lookExercise:hover {
+    color:#78FCA0;
+    font-size: 30px;
+}
+
+.option {
+    margin-left: 2%;
+}
+
+.levels {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.level-students {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #b8fcce;
+    border-radius: 10px;
+    padding: 5%;
+    border: solid 1px #000;
+}
+
+.level-students:hover {
+    color:#000;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #78FCA0;
+}
+
+.btn-gerirAlunos {
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+}
+
+.btn-gerirAlunos:hover {
+    background-color: #b8fcce;
+    padding: 1%;
+}
+
+.newFTBEx-btn, .newMCEx-btn {
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+}
+
+.newFTBEx-btn:hover, .newMCEx-btn:hover {
+    background-color: #b8fcce;
+    padding: 1%;
+}
+
+.medal-image {
+    width: 5%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px; /* Espaçamento entre o texto e a imagem */
+}
+
+
+
+
+

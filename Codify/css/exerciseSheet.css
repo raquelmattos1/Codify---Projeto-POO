@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: "Aldrich", sans-serif !important;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.pdf-container {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    height: 100vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.timer {
+    background-color: rgb(54, 54, 77);
+    color: #fff;
+    width:fit-content;
+    padding: 1%;
+    border-radius: 8px;
+    padding-top: 1.5%;
+
+}
+
+.buttons {
+    padding: 3%;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.giveUpBtn {
+    background-color: #b8fcce;
+    border-radius: 8px;
+    padding: 0.7%;
+}
+
+
+.codeLanguage {
+    margin-top: 5%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text .statement {
+    margin-bottom: 20px; /* Ajuste o espaçamento conforme necessário */
+}
+
+.text input[type="text"],
+.text input[type="radio"] {
+    margin-bottom: 10px; /* Ajuste o espaçamento conforme necessário */
+}
+
+.statement {
+    width: 90%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+
+.continueBtn {
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+}

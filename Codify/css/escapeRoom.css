@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0; 
+    font-family: 'Aldrich';
+    color: white;
+}
+
+.back-icon {
+    color: white;
+    margin: 2%;
+}
+
+#escapeRoomContent {
+    margin: 1%;
+}
+
+
+.content-container {
+    background-color: black;
+    border-radius: 8px;
+    margin-left: 3%;
+    border: white 1px solid;
+    width: 50%;
+    margin-top: 1%;
+}
+
+.start-btn {
+    margin-left: 50%;
+    margin-top: 2%;
+    padding: 0.7%;
+    border-radius: 8px;
+    background-color: rgb(248, 239, 239);
+    font-size: 15px;
+}
+
+.start-btn:hover {
+    background-color: rgb(178, 255, 255);
+    padding: 1%;
+    font-size: 17px;
+}

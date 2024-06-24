@@ -1,0 +1,33 @@
+new TypeIt(".language", {
+    speed: 50,
+    waitUntilVisible: true,
+})
+    .type("html", { delay: 400 })
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .type("CSS", { delay: 350 })
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .type("JavaScript", { delay: 600 })
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .type("Python", { delay: 450})
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .delete(1)
+    .go();
+

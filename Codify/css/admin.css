@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: "Aldrich", sans-serif;
+
+}
+
+#label {
+    text-decoration: none;
+    font-size: 45px;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+#label:hover {
+    color: #78FCA0;
+}
+
+#perfil-icon {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#tsiw-icon, #alumni-icon, #perfil-icon, #leaderboard-icon, #logout-icon {
+    color:black;
+    font-size: 25px;
+}
+
+.box-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 2px #000;
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center;
+}
+
+.box-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Codify/img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.45;
+    border-radius: 20px;
+}
+
+.text-box  {
+    position: relative;
+    z-index: 1;
+    padding: 3%;
+}
+
+.box-2 {
+    position: relative;
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+    border: solid 2px #000;
+    background-color: #fff;
+
+}
+
+.title {
+    color: #78FCA0;
+    font-size: 45px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#logo-porto {
+    max-height: 50px;
+    max-width: 150px;
+}
+
+.subtitulo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#desafios-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#testemunhos-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#alunos-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#perfil-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+#logout-icon:hover {
+    color: #78FCA0;
+    font-size: 30px;
+}
+
+.table-alunos {
+    text-align: center;
+}
+
+.btn-bloquear {
+    border-radius: 8px;
+    background-color: #fafdab;
+}
+
+.btn-remover {
+    border-radius: 8px;
+    background: #fab4ab;
+}
+
+.btn-desbloquear {
+    border-radius: 8px;
+    background-color: #b8fcce;
+}
+
+.input-nome-aluno, .input-img-aluno, .input-subtitulo, .input-testemunho {
+    border-radius: 20px;
+    margin-top: 5%;
+    height: 2.5rem;
+
+}
+
+.input-nome-aluno, .input-img-aluno {
+    width: 90%;
+
+}
+
+.input-subtitulo, .input-testemunho {
+    width: 95%;
+}
+
+.input-testemunho {
+    height: 150%;
+    border: solid 2px #000;
+}
+
+.submit-form-test {
+    margin-top: 25%;
+    margin-left: 45%;
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+}
+
+
+.img-alumni {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 1px solid #78FCA0;
+    width: 100%;
+    height: 350px; 
+    object-fit: cover;
+}
+
+
+.card-alumni {
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 1px #000;
+}
+
+.nome-alumni {
+    color: #78FCA0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    margin-top: 6%;
+    min-height: 70px;
+}
+
+.cards {
+    margin: auto;
+    margin-top: 2%;
+}
+
+.btn-novoTestemunho {
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+}
+
+.lixo-icon {
+    font-size: 30px;
+    margin-bottom: 100%;
+}
+
+.lixo-icon:hover {
+    font-size: 35px;
+    color: #78FCA0;
+}
+
+.avatar {
+    width: 300px; /* Largura desejada */
+    height: 300px; /* Altura desejada */
+    width: 60%;
+    margin-top: 6%;
+}
+
+@media (min-width: 992px) {
+    .avatar {
+        width: 400px; /* Largura desejada */
+        height: 400px; /* Altura desejada */
+    }
+}
+
+.btn-addAvatar {
+    background-color: #78FCA0;
+    border-radius: 8px;
+    padding: 0.7%;
+}
+
+.btn-fechar {
+    background-color: #b8fcce;
+    border-radius: 8px;
+    padding: 0.7%;
+
+}
+
+.avatares {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.img-avatar {
+    border-radius: 50%;
+    width: 100px; /* Largura desejada */
+    height: 100px; /* Altura desejada */
+    object-fit: cover;
+    margin: 2%;
+}
+
+.avatar-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre os avatares */
+    margin-top: 6%;
+
+}
+
+.avatar-container {
+    flex: 0 0 calc(33.33% - 10px); /* 33.33% de largura com espaço entre eles */
+    max-width: calc(33.33% - 10px); /* Máxima largura para evitar quebrar para a próxima linha */
+    position: relative;
+}
+
+
+.avatar-container a {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.lixo-icon-avatar {
+    color: #000;
+}
+
+.lixo-icon-avatar:hover {
+    color: #fa7a5e;
+}
+
+.titulo-avatares {
+    margin-top:6%;
+}
+
+

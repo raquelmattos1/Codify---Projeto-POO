@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@media (max-width: 576px) {
+    .registo-form {
+        width: 75%;
+        height: 60%;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align:automatic;
+    }
+
+    h2 {
+        margin-top: 8%;
+    }
+    
+    input {
+        margin-top: 8%;
+    }
+    
+    p {
+        margin-top: 8%;
+    }
+
+    .btn-registo {
+        margin-top: 3%;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .registo-form {
+        width: 75%;
+        height: 50%;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align:automatic;
+    }
+
+    h2 {
+        margin-top: 4%;
+    }
+    
+    input {
+        margin-top: 4%;
+    }
+    
+    p {
+        margin-top: 4%;
+    }
+
+    .btn-registo {
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 768px) {
+    .registo-form {
+        width: 75%;
+        height: 55%;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align:automatic;
+    }
+
+    h2 {
+        margin-top: 4%;
+    }
+    
+    input {
+        margin-top: 4%;
+    }
+    
+    p {
+        margin-top: 3%;
+    }
+
+    .btn-registo {
+        margin-top: 1%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .registo-form {
+        width: 40%;
+        height: 60%;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align:automatic;
+    }
+
+    h2 {
+        margin-top: 6%;
+    }
+    
+    input {
+        margin-top: 5%;
+    }
+    
+    p {
+        margin-top: 6%;
+    }
+
+    .btn-registo {
+        margin-top: 2%;
+    }
+}
+
+
+html, body {
+    height: 100%;
+    font-family: "Aldrich", sans-serif;
+    color: #fff;
+    align-content: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/Codify/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.registo-form {
+    background-color: rgb(0,0,0,0.45);
+    border-radius: 30px;
+    border: solid 1px #78FCA0;
+    text-align: center;
+}
+
+h2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: 100;
+
+}
+
+input {
+    width: 60%;
+    border-radius: 4px;
+}
+
+.login {
+    color: #78FCA0;
+    text-decoration: underline;
+}
+
+.login:hover {
+    color: #14FFFE;
+}
+
+.btn-registo {
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #78FCA0;
+}
+
+.btn-registo:hover {
+    background-color: #14FFFE;
+}
